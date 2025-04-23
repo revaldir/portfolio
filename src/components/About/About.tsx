@@ -9,8 +9,10 @@ export function About() {
         <div className="mb-16">
           <Introduction />
         </div>
-        <h2 className="text-4xl font-bold text-white mb-12">Experience & Education</h2>
-        <Timeline />
+        <h2 className="text-4xl font-bold text-white mb-12">Professional Experience</h2>
+        <Timeline type="work" />
+        <h2 className="text-4xl font-bold text-white my-12">Education</h2>
+        <Timeline type="education" />
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Github, Linkedin, Phone } from 'lucide-react';
 
 export function Contact() {
   return (
@@ -11,6 +11,9 @@ export function Contact() {
             Interested in collaborating or have a project in mind? Let's discuss how we can work together.
           </p>
           <div className="flex justify-center gap-6 mb-12">
+            <a href="http://wa.me/6281910278235?text=Hi%20Revaldi!" target="_blank" className="text-zinc-400 hover:text-emerald-500 transition-colors">
+              <Phone className="w-8 h-8" />
+            </a>
             <a href="mailto:revaldii32@gmail.com" target="_blank" className="text-zinc-400 hover:text-emerald-500 transition-colors">
               <Mail className="w-8 h-8" />
             </a>

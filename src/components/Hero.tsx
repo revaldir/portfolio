@@ -1,5 +1,6 @@
 import React from 'react';
 import { Terminal, Database, Wrench } from 'lucide-react';
+import resumeFile from '../assets/Resume_Revaldi.pdf'
 
 export function Hero() {
   return (
@@ -15,6 +16,12 @@ export function Hero() {
             <p className="text-zinc-400 text-xl mb-8">
               Software Engineer | Backend Developer | Web Developer
             </p>
+            <button className="bg-emerald-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-emerald-600 transition duration-300 mr-3">
+              <a href={resumeFile} download>Check Out My Latest Resume!</a>
+            </button>
+            <button className="bg-emerald-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-emerald-600 transition duration-300">
+              <a href="#contact">Contact Me!</a>
+            </button>
           </div>
           <div className="flex-1 flex justify-center">
             <div className="grid grid-cols-3 gap-4 w-full max-w-md">

@@ -28,7 +28,7 @@ export function Introduction() {
         </div>
       </div>
       <p className="text-zinc-400 text-lg leading-relaxed mb-8 text-justify">
-        A determined and proven Fullstack Engineer with over 3 years of working experience. Specialized in backend development, with a strong track record of creating scalable API endpoints, optimizing databases with complex query generation, implementing containerization, integrating message queues, and leveraging caching mechanisms for improved system performance. Capable and eager to learn and improve in frontend and recent technologies. Comfortable to work together as a team, willing to adapt and learn new things thoroughly. Seeking opportunities to contribute as a Software Engineer, Backend Developer, or Fullstack Developer, delivering impactful solutions that drive business success.
+        Fullstack Engineer with 4 years of hands-on experience, specializing in backend systems and API architecture. Skilled in developing scalable microservices, optimizing database performance, and integrating caching and messaging solutions. Adept across the stack with a passion for clean, maintainable code. Strong collaborator who embraces feedback and continuous learning.
       </p>
     </div>
   );
