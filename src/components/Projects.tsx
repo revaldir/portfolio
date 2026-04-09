@@ -32,21 +32,21 @@ export function Projects() {
         <h2 className="text-4xl font-bold text-white mb-12">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="bg-zinc-900 rounded-lg p-6 border border-zinc-700 hover:border-emerald-500 transition-all">
+            <div key={index} className="bg-zinc-900 rounded-lg p-6 border border-zinc-700 hover:border-accent transition-all">
               <h3 className="text-xl font-semibold text-white mb-3">{project.title}</h3>
               <p className="text-zinc-400 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-6">
                 {project.tech.map((tech, i) => (
-                  <span key={i} className="bg-zinc-800 text-emerald-500 px-3 py-1 rounded-full text-sm">
+                  <span key={i} className="bg-zinc-800 text-accent px-3 py-1 rounded-full text-sm">
                     {tech}
                   </span>
                 ))}
               </div>
               <div className="flex gap-4">
-                <a href={project.github} className="text-zinc-400 hover:text-emerald-500 transition-colors">
+                <a href={project.github} className="text-zinc-400 hover:text-accent transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href={project.live} className="text-zinc-400 hover:text-emerald-500 transition-colors">
+                <a href={project.live} className="text-zinc-400 hover:text-accent transition-colors">
                   <ExternalLink className="w-5 h-5" />
                 </a>
               </div>
